@@ -1,0 +1,48 @@
+
+
+
+body {
+  background-color: teal;
+  padding: 50px;
+}
+
+.title{
+  color: white;
+  
+}
+
+p{
+  cursor: pointer;
+  margin: 0;
+}
+
+.container {
+  
+  background-color:  #66a5ad
+  
+}
+
+.list-group-item{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #07575B ;
+  color: white;
+}
+
+.complete{
+  text-decoration: line-through;
+}
+
+.btn-outline-primary{
+  background-color: #c4dfe6;
+}
+
+.complete{
+  color: #c4dfe6;
+  transition-duration: 2s;
+}
+
+.complete:hover{
+  color: white;
+}
