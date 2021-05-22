@@ -12,11 +12,10 @@ export const TodoListItem = ({todos, index, handleDelete, handleToggle}) => {
             className={ `${ todos.done && 'complete'}` }
             onClick= {() => handleToggle( todos.id )}
             > 
-            { index + 1 }. 
-            {todos.desc}</p>
+            { index + 1 }. {todos.desc}</p>
 
             <button 
-            className="btn btn-danger"
+            className="btn btn-danger col-sm-2"
             onClick= {() => handleDelete(todos.id)}
             >
                 Delete
